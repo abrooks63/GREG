@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>GREG Documentation and Schema</title>
+        <author ref="team:pwfc-broo1">Alexandria Brooks</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Free for anyone for any purpose.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <change when="2025-12-28" who="team:broo1">Created ODD file.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">GREG Project</titlePart>
+          <titlePart type="sub">Schema and guidelines for encoding</titlePart>
+        </docTitle>
+        <docAuthor ref="team:broo1">Alexandria Brooks</docAuthor>
+        <docDate>2025-2026</docDate>
+      </titlePage>
+      <divGen type="toc"/>
+    </front>
+    <body> 
+      <!-- documentation goes here -->
+      <p></p>
+    </body>
+    <back>
+      <!-- schema specifics go here -->
+      <head>Schema Specifics</head>
+      <schemaSpec ident="GREG" start="TEI">
+        <!-- Four Base TEI Modules -->
+        <moduleRef key="tei"/>
+        <moduleRef key="core"
+          include="graphic head hi item label lb list p pb q ref resp respStmt title"/>
+        <moduleRef key="corpus" include="settingDesc"/>
+        <moduleRef key="header"
+          include="abstract availability category catDesc catRef classDecl editionStmt encodingDesc fileDesc handNote idno licence profileDesc publicationStmt rendition revisionDesc samplingDecl seriesStmt sourceDesc tagsDecl taxonomy teiHeader textClass titleStmt"/>
+        <moduleRef key="textstructure"
+          include="body div TEI text"/>
+        <!-- Other TEI Modules -->
+      </schemaSpec>
+    </back>
+  </text>
+</TEI>
