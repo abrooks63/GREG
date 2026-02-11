@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mei="http://www.music-encoding.org/ns/mei" n="gregorianChant" xml:lang="la" xml:id="Fragm_Brown_Lat_2">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="proper">Leaf from a Medieval Manuscript, Fragment</title>
+        <title type="parallel">Medieval Manuscript Leaf Framed Between Two Sheets of Glass, Bolognese</title>
+      </titleStmt>
+      <!-- <editionStmt>
+               <respStmt>
+                    <resp ref="resp:trc">
+                        <date when="2025-08">August 2025</date>
+                    </resp>
+                    <persName ref="team:pwfc-bird1">
+                        <surname>Bird</surname>
+                        <forename>Maureen</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:mrk">
+                        <date when="2025-08">August 2025</date>
+                    </resp>
+                    <persName ref="team:pwfc-bird1">
+                        <surname>Bird</surname>
+                        <forename>Maureen</forename>
+                    </persName>
+                </respStmt>
+            </editionStmt>-->
+      <publicationStmt>
+        <publisher>????? Publication information suggested by ALSB</publisher>
+        <availability>
+          <licence>Availability of my work</licence>
+        </availability>
+      </publicationStmt>
+      <!--<seriesStmt>
+                <ab>Camp Gardens</ab>
+            </seriesStmt>-->
+      
+      <sourceDesc>
+        <ab></ab>
+        <ab>University of Victoria Special Collections and University Archives; Shelf Mark: Fragm.Brown.Lat.2; Reference code: CA UVICARCH SC017--1991-107-1; Title: Leaf from a Medieval Manuscript; ca. 1300</ab>
+      </sourceDesc>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>University of Victoria Special Collections and University Archives</repository>
+            <idno>General material designation: Textual record</idno>
+            <idno>shelf mark: Fragm.Brown.Lat.2</idno>
+            <idno>Reference code: CA UVICARCH SC017--1991-107-1</idno>
+            <idno>Date of creation: ca. 1300</idno>
+            <!-- physical description: 1 leaf ; 570 x 360 mm -->
+            <!-- other collection information -->
+            <idno>Title: Leaf from a Medieval Manuscript, Fragment</idno>
+            <idno type="URI">https://search.archives.uvic.ca/medieval-manuscript-leaf-framed-between-two-sheets-of-glass-bolognese-artist</idno>
+          </msIdentifier>
+          <additional>
+            <adminInfo>
+              <availability><licence>The licence or copyright or permission statement.</licence></availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab/>
+      <samplingDecl>
+        <ab></ab>
+      </samplingDecl>
+      <tagsDecl>
+        <!-- insert any tag declarations / @renditions -->
+        <!-- EXAMPLE -->
+        <!-- <rendition xml:id="smallCaps" scheme="css">font-variant: small-caps;</rendition>-->
+        <!-- must be referenced in body of document using @rendition="#smallCaps" attribute -->
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <!--  <handNotes>
+                <handNote xml:id="surname_forename">insert description</handNote>
+                must be referenced in body of document using @hand="#surname_forename" attribute (usually in a <signed> element)
+            </handNotes>-->
+      <!--<textClass>
+                <!-\- place document type, format, and keywords here (ask Archives for keywords). -\->
+                <catRef scheme="tax:pwfc-recType" target="cat:rt_imagePhoto"/>
+                <catRef scheme="tax:pwfc-recSource" target="cat:rs_pers"/>
+                <!-\- ALSB: need to double check this, but since the photographer was SGT H. K. CULLEN, the source could also be gov. -\->
+            </textClass>-->
+      <abstract>
+        <ab>Description from Unidentified Dealer's Catalogue
+          
+          Medieval Manuscript Leaf Framed Between Two Sheets of Glass, Bolognese
+          
+          Artist: 14th Century (Beginning) Christ with the Stigmata. Historiated initial "D" on a full leaf on vellum from a Gradual. Bologna, ca. 1300. Christ is richly dressed in robes of blue and green and stands holding a green book, background in brown with white tracery. The initial painted in green and pale brown with thick curling stems ending in two grotesque faces, one of whom wears a pointed orange hat and is blowing an oliphant; square musical notation on red four-line staves. Size of the initial: 141x134 mm. On verso, a blue initial ["M"] with red calligraphic pen work [95x40 m]. Size of leaf: 570x360 mm. 5 lines of text in a large gothic hand [on each page]. The initial introduces the text: Da pacem, Domine, Sustentibus (introit to the Mass on the 18th Sunday after Pentecost).</ab>
+      </abstract>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>  
+      <figure>
+        <graphic url="lowens\dev\data\fragm_brown_lat_2_r_141"></graphic>
+        <figDesc></figDesc>
+      </figure>  
+      <div>
+        <ab xml:lang="la">Da pacem domine sustentibus te ut </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+

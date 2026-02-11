@@ -3,8 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-  xml:lang="en">
+  xmlns:mei="http://www.music-encoding.org/ns/mei"  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,7 +40,7 @@
     <back>
       <!-- schema specifics go here -->
       <head>Schema Specifics</head>
-      <schemaSpec ident="GREG" start="TEI">
+      <schemaSpec ident="GREG_tei_with_mei" start="TEI">
         <!-- Four Base TEI Modules -->
         <moduleRef key="tei"/>
         <moduleRef key="core"
@@ -52,6 +51,13 @@
         <moduleRef key="textstructure"
           include="body div TEI text"/>
         <!-- Other TEI Modules -->
+        
+        <!-- MEI Modules (pointing to local source copy)-->
+        
+        <!-- still working on how I will integrate MEI -->
+        <!--<anyElement name="mei" namespace="http://www.music-encoding.org/ns/mei" type="xs:anyType"></anyElement>-->
+        <!--<moduleRef url="https://raw.githubusercontent.com/music-encoding/music-encoding/develop/source/validation/mei_odds.odd" prefix="mei-"></moduleRef>
+        <moduleRef key="neumes" include="syllable"></moduleRef>-->
       </schemaSpec>
     </back>
   </text>
