@@ -2,3 +2,6 @@
 	path = GREGsite/public2
 	url = https://github.com/abrooks63/GREG.github.io.git
 	branch = main
+[submodule "GREGsite/themes/hugo-book"]
+	path = GREGsite/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
