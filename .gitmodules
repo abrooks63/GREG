@@ -1,0 +1,4 @@
+[submodule "GREGsite/public2"]
+	path = GREGsite/public2
+	url = https://github.com/abrooks63/GREG.github.io.git
+	branch = main

@@ -1,0 +1,5 @@
+baseURL = 'https://GREG.github.io/'
+locale = 'en-us'
+title = 'The Wordless Part of A Word in Gregorian Chants'
+
+theme = 'hugo-book'
